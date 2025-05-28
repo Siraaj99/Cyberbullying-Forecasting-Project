@@ -28,3 +28,13 @@ git clone https://github.com/yourusername/cyberbullying-detection.git
 cd cyberbullying-detection
 pip install -r requirements.txt
 python -m spacy download en_core_web_lg
+
+
+.
+├── api/                  # FastAPI endpoints
+├── data/                 # Sample datasets
+├── models/               # Saved model weights
+├── notebooks/            # Jupyter notebooks for EDA
+├── preprocessing/        # Text cleaning scripts
+├── training/             # Model training scripts
+└── evaluation/           # Performance metrics
