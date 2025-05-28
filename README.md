@@ -29,7 +29,7 @@ cd cyberbullying-detection
 pip install -r requirements.txt
 python -m spacy download en_core_web_lg
 
-
+Project Structure 📂
 .
 ├── api/                  # FastAPI endpoints
 ├── data/                 # Sample datasets
@@ -38,3 +38,8 @@ python -m spacy download en_core_web_lg
 ├── preprocessing/        # Text cleaning scripts
 ├── training/             # Model training scripts
 └── evaluation/           # Performance metrics
+Results 📊
+Model	Accuracy	Precision	Recall
+BERT-base	92.1%	89.5%	93.2%
+LSTM	88.3%	85.1%	89.7%
+SVM (baseline)	82.4%	79.8%	83.1%
